@@ -73,10 +73,6 @@ const config = {
                 label: "Intro to Carpet",
                 to: "/",
               },
-              {
-                label: "Tokenomics",
-                to: "/tokenomics",
-              },
             ],
           },
           {
