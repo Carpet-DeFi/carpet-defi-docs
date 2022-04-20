@@ -1,5 +1,7 @@
 # Protocol Treasuries
 
+![Revenue flowchart](/img/revenue.png)
+
 ## Backing Treasury
 
 The Backing Treasury guarantees the value of each CARPET. It invests only in safe and secure protocols with stable assets to avoid any possibility of loss.

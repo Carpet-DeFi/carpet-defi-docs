@@ -40,10 +40,10 @@ const config = {
     ({
       navbar: {
         title: "Carpet DeFi Docs",
-        logo: {
+        /*logo: {
           alt: "Carpet DeFi",
           src: "img/logo.svg",
-        },
+        },*/
         items: [
           {
             type: "doc",

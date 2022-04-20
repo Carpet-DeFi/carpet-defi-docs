@@ -5,11 +5,11 @@ sidebar_position: 0
 
 # Introduction to Carpet DeFi
 
-Carpet DeFi is a value protocol, combining aspects of 2 different protocol tokenomics together: [WAND Investments' number-go-up technology](https://medium.com/coinmonks/wand-investments-whitepaper-reconciling-safety-sustainability-and-rewards-in-defi-ba20d96213) and Titano's rebasing. **Your holdings will always rise in value** _(unless something ridiculous happens)_
+Carpet DeFi is a value protocol, loosely based on [WAND Investments' number-go-up technology](https://medium.com/coinmonks/wand-investments-whitepaper-reconciling-safety-sustainability-and-rewards-in-defi-ba20d96213). **Your CARPETs will always rise in value** _(unless something ridiculous happens)_
 
 :::info
 
-This is called the Positive Value Invariant! Adjusted for rebasing, your CARPET holdings will always grow in value.
+This is called the Positive Value Invariant! Your CARPET holdings will always grow in value over time, the price at one moment is always greater or equal to any price in any other previous point in time.
 
 :::
 
@@ -19,7 +19,7 @@ This is called the Positive Value Invariant! Adjusted for rebasing, your CARPET 
 
 Good question. But first, you have to forget all that you know about decentralized exchanges.
 
-The protocol token CARPET is backed by a basket of stablecoins. Currently we plan to launch with MIM & FRAX, but in the future, more stablecoins will be added.
+The protocol token CARPET is backed by a basket of stablecoins. Currently we plan to launch with MIM & USDC, but in the future, more stablecoins will be added.
 
 You can only trade CARPET with the Counter (our protocol-owned exchange), rather than an external AMM, we call this **Protocol Owned Liquidity 2.0**. The protocol charges exchange fees, which make the price go up.
 
@@ -65,4 +65,6 @@ Some good pages to start off with would be:
 - [Treasuries](/treasuries)
 - [Protocol Fees](/fees)
 - [Potential Risks](/risks)
-- [Rebases & Rollups](/rebases)
+- [Official Links](/community)
+
+# The docs are WIP. Things may change at a moment's notice.

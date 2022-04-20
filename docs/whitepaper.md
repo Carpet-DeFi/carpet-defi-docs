@@ -1,60 +1,34 @@
+# Carpet DeFi Whitepaper
+
 ## Introduction
 
-Carpet Decentralised Finance (Carpet DeFi) is a completely new type of protocol based loosely on
-the workings of Wand and Titano. It has its own code and its own tokenomics, based around a single
-token, $CARPET.
+Carpet Decentralised Finance (Carpet DeFi) is a completely new type of protocol based loosely on the workings of Wand. It has its own code and its own tokenomics, based around a single token, $CARPET.
 
-Carpet DeFi is designed in such a way that buying and selling the $CARPET are the only moments
-where your investment lowers a little in value. All the time in between, where you’re holding on to
-your $CARPET, works to increase the value of your $CARPET holdings.
+Carpet DeFi is designed in such a way that buying and selling the $CARPET are the only moments where your investment lowers a little in value. All the time in between, where you’re holding on to your $CARPET, works to increase the $CARPET price.
 
-Holding on to your $CARPET for long enough will therefore guarantee profit.
-Yet how does this work? That must be magic, right? Well, that’s why we’re a magical Carpet Store,
-selling magical $CARPET.
+Holding on to your $CARPET for long enough will therefore guarantee profit. Yet how does this work? That must be magic, right? Well, that’s why we’re a magical Carpet Store, selling magical $CARPET.
 
-We’d also like to emphasise that we’re a Carpet Store, not a rug store.
-Rugs stay on the ground, really tying rooms together. Carpets fly high towards the moon.
+We’d also like to emphasise that we’re a Carpet Store, not a rug store. Rugs stay on the ground, really tying rooms together. Carpets fly high towards the moon.
 
 ## TL;DR
 
 If you buy or sell $CARPET, you pay a trade tax. The longer you hold $CARPET the more value you’ll have.
-You can roll up your $CARPET into rCARPET to have your rCARPET increase in price, instead of having
-your $CARPET increase in number. That might save you government tax in some tax systems, like
-that of the USA.
 
 ## The Carpet Store
 
-The Carpet Store is a very interesting place. It has a Counter, a Backing Treasury, a Risk Treasury,
-and, of course, $CARPET.
+The Carpet Store is a very interesting place. It has a Counter, a Backing Treasury, a Risk Treasury, and, of course, $CARPET.
 
 ### Counter
 
 The Counter is the only place where you can buy or sell $CARPET.
 
-Our Carpet store knows it has this
-monopoly, and therefore you overpay when you buy $CARPET and you get underpaid when you sell
-$CARPET.
+Our Carpet store knows it has this monopoly, and therefore you overpay when you buy $CARPET and you get underpaid when you sell $CARPET.
 
-In normal DeFi terms we call this buy tax and sell tax, and it is essential for the workings of
-the Carpet DeFi protocol. The Carpet DeFi buy and sell taxes start reasonably high and will likely
-decline as the protocol ages.
-
-At the counter you may also request to have your $CARPET nicely rolled up for you into another
-token: Rolled $CARPET, or rCARPET. In other DeFi protocols, like Olympus DAO or Wonderland, they call it wrapping rather than rolling, so you might already be familiar with this.
-
-Carpet DeFi offers this service because $CARPET is an autorebasing token (please refer to the APeR
-and APeY chapter for an explanation on this) and in some tax systems, like that of the USA, the
-increase in token amount gets taxed by the government. Unlike $CARPET, rCARPET does not
-increase in amount in your wallet, but instead only increases in price, freeing you of those pesky income taxes.
+In normal DeFi terms we call this buy tax and sell tax, and it is essential for the workings of the Carpet DeFi protocol. The Carpet DeFi buy and sell taxes start reasonably high and will likely decline as the protocol ages.
 
 ### Backing Treasury
 
-The Backing Treasury (BT) is an actual treasury wallet filled with stablecoins, and the combined value of the stablecoins in the wallet is the measurement of the value of $CARPET through this simple formula: `BT value / supply of $CARPET = price of $CARPET`.
-
-:::info
-It is important to note that the $CARPET in the above formula includes any $CARPET that’s rolled up
-into rCARPET tokens.
-:::
+The Backing Treasury (BT) is a smart contract filled with stablecoins, and the combined value of the stablecoins in the wallet is the measurement of the value of $CARPET through this simple formula: `BT value / supply of $CARPET = price of $CARPET`.
 
 **Essentially, the value in the backing treasury always equals the current market cap of $CARPET.** The
 backing treasury invests a large percentage of its stablecoins in low risk yield strategies, such as
@@ -72,7 +46,13 @@ A part of the RT is also used for protocol expenses, for possible giveaways or p
 
 ## The workings of only up
 
-How come the value of your $CARPET holdings will only ever go up? This question can be answered
+:::info
+
+Technically, we call this the Positive Value Invariant.
+
+:::
+
+How come the $CARPET price will only ever go up? This question can be answered
 quite simply using our formula: `BT value / supply of $CARPET = price of $CARPET`
 
 ### Buy $CARPET, number go up
@@ -91,9 +71,7 @@ The new $CARPET price is `1000 + 95 / 1000 + 80 = 1.014`. $CARPET price has incr
 
 ### Sell $CARPET, number go up
 
-When you sell $CARPET, you pay a sell tax. More value in $CARPET gets burned by the Counter than
-you get stablecoin value in return. The result is a larger value decrease in $CARPET supply than in the
-BT, resulting in an increased $CARPET price.
+When you sell $CARPET, you pay a sell tax. More value in $CARPET gets burned by the Counter than you get stablecoin value in return. The result is a larger value decrease in $CARPET supply than in the BT, resulting in an increased $CARPET price.
 
 :::info Example
 
@@ -116,38 +94,6 @@ The portion of the buy tax and the sell tax that is not sent to the BT, gets sen
 ### Whale dump immunity
 
 Bogdanoff ain’t got nothing on us. We welcome any sell with open arms.
-
-## APeR and APeY, only for apes
-
-$CARPET has an autorebasing feature, like Titano forks do. When you hold $CARPET, it automatically rebases every 6 hours by a certain percentage, giving a huge Annual Percentage Yield (APY) on $CARPET.
-
-This feature is entirely useless and only for apes, but because apes respond to it, it is useful. That’s why we at Carpet Defi call it APeR and APeY.
-
-### Why does it not matter?
-
-The value of the $CARPET you hold is always calculated based on $CARPET supply. The relative size of your portion of $CARPET does not increase or decrease if all of the supply gets increased or decreased by the exact same percentile amount.
-
-For example, whether you have 100 tokens out of a supply of 1000 or 200 tokens out of a supply of 2000 doesn’t matter, since you still have 10%. It's about as stupid as cutting up your one pizza into more slices because you want more pizza.
-
-If you have rolled up your $CARPET into rCARPET, the fact that the APeR and APeY doesn’t matter
-becomes even more apparent, as your rCARPET price is entirely unaffected by it and will truly never
-drop.
-
-### Apes don’t read
-
-As we in DeFi are all aware, Apes do not read whitepapers. All of these characters and pages confuse them and they just want to throw money at protocols and screech about APR, APY, pumps and dumps, and ask wen moon and if projects are ded. Therefore we can easily write here in this whitepaper how we’re making profit out of their silly antics.
-
-### Variable APR
-
-The Carpet DeFi team plans to sometimes increase and sometimes decrease the APeR of the autorebases. We here all know that this does exactly nothing, because we have read this whitepaper or because we are simply good at math. But the apes will see their APeY go up or down and that might make them impulsively buy or sell, which makes the value for $CARPET in the wallets of holders go up.
-
-### Price might fall
-
-A high APeR can drop the price of $CARPET. We here know that our value doesn’t drop together with the price, because it drops exactly as much relatively as that there is an increase of $CARPET tokens in holder wallets. Holder value stays exactly the same and you’re able to see that even more clearly if you hold rCARPET. But apes aren’t too good at calculations and they might sell because they see the $CARPET price drop, benefitting holders.
-
-### Silly ape immunity
-
-Apes not getting it doesn’t matter to Carpet DeFi, their irrational moves are all good for us.
 
 # Carpet Finance as a story
 
@@ -208,8 +154,7 @@ The only difference between Ponzi schemes and Pyramid schemes is that Ponzi sche
 
 It is well known in Crypto land that everyone is looking to be an early investor. Early investors can see a token go 100x or more and then those early whales can dump their moonbags on the poor latecomers. This happened even with OG Bitcoin, where I remember a friend of mine was happy he could buy a nice burger because he had mined a Bitcoin on his home PC and sold it for €2,50. People with less appetite would have been way richer than he eventually got. All the big successful altcoins later did the same. But Carpet DeFi works differently.
 
-Of course, early investors still profit, because the longer you hold your $CARPET or rCARPET, the more you’ll be in profit. But if you’re late, you’re still good. Because for those early whales to take profit, they need to sell their $CARPET, and we know what sales do to $CARPET: it increases its value. Latecomers will never have to be scared of getting dumped on by early whales, they may instead hope for such big sells. Carpet DeFi is so much not a Ponzi scheme that it could even be
-considered anti-Ponzi.
+Of course, early investors still profit, because the longer you hold your $CARPET or rCARPET, the more you’ll be in profit. But if you’re late, you’re still good. Because for those early whales to take profit, they need to sell their $CARPET, and we know what sales do to $CARPET: it increases its value. Latecomers will never have to be scared of getting dumped on by early whales, they may instead hope for such big sells. Carpet DeFi is so much not a Ponzi scheme that it could even be considered anti-Ponzi.
 
 ### Only apes lose
 
@@ -217,10 +162,7 @@ The only way to lose on your investment in Carpet DeFi is when you overinvest an
 
 ## Initial settings
 
-The Carpet Defi team plans to launch with heavier taxes and over time reduce these. The necessity
-of this lies in setting the protocol up. We believe that early investors will still be greatly in profit
-because they’ll be able to hold for the longest time, possibly even selling only after the sell taxes are
-lowered.
+The Carpet Defi team plans to launch with heavier taxes and over time reduce these. The necessity of this lies in setting the protocol up. We believe that early investors will still be greatly in profit because they’ll be able to hold for the longest time, possibly even selling only after the sell taxes are lowered.
 
 ### Basic information
 
@@ -230,23 +172,20 @@ lowered.
 
 - $CARPET contract: Not deployed yet
 
-- rCARPET contract: Not deployed yet
-
 - BT address: Not deployed yet
 
 - RT address: Not deployed yet
 
 - Initial exchange tax: 30%
 - Initial transfer tax: 30%
-- Initial rollup tax: 5%
 
 - Percentage sent to BT & RT: 60% of fees to Backing (or burnt), 40% to Risk
 
-- BT will initially accept the following stablecoins: MIM, USDC.e, USDC
+- BT will initially accept the following stablecoins: MIM, USDC
 
 - BT will initially invest in the following low risk
   protocols: BankerJoe
 
 - Amount BT will initially keep liquid: 10%
 
-These initial settings will be adjusted over time, but the community will always be informed.
+These initial settings will be adjusted over time, but the community will always be informed. None of this information is fixed until launch.

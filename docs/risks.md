@@ -10,7 +10,7 @@ All cryptocurrency is code, and code can have mistakes in it. Blockchain develop
 
 We have a partially doxxed team working for Carpet DeFi and the doxxed members of that team are on the multisig for non-automated treasury wallets. We trust each other and ourselves.
 
-We are known in the DeFi space and our honour and reputation is more valuable to us than any money we could rug. Also, we are not a rug store, but a Carpet Store. That leaves threats or aggressive crime, but we are still on multisig wallets and not all members on the multisig wallets are doxxed, so even such crime would be as useless as it would be horrible. Once the protocol is stable, we plan to build a governance DAO in the future to decentralize the project.
+We are known in the DeFi space and our honour and reputation is more valuable to us than any money we could rug. Also, we are not a rug store, but a Carpet Store. That leaves threats or aggressive crime, but we are still on multisig wallets and not all members on the multisig wallets are doxxed, so even such crime would be as useless as it would be horrible. Once the protocol is stable, we plan to build a governance DAO in the future to further decentralize the project.
 
 ## Depegging of stablecoins
 
