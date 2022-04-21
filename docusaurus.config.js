@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Carpet DeFi",
-  tagline: "Dinosaurs are cool",
+  tagline: "A DeFi value protocol that always goes up.",
   url: "https://carpetde.fi",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -40,10 +40,10 @@ const config = {
     ({
       navbar: {
         title: "Carpet DeFi Docs",
-        /*logo: {
+        logo: {
           alt: "Carpet DeFi",
-          src: "img/logo.svg",
-        },*/
+          src: "img/carpeticon.png",
+        },
         items: [
           {
             type: "doc",

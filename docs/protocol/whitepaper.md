@@ -1,6 +1,4 @@
-# Carpet DeFi Whitepaper
-
-## Introduction
+# Whitepaper
 
 Carpet Decentralised Finance (Carpet DeFi) is a completely new type of protocol based loosely on the workings of Wand. It has its own code and its own tokenomics, based around a single token, $CARPET.
 

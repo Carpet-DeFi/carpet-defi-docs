@@ -1,5 +1,7 @@
 # Roadmap
 
+What we plan to do in the future.
+
 ## Q2 2022:
 
 - Start the protocol

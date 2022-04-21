@@ -1,6 +1,8 @@
 # Fees & Taxes
 
-We enforce taxes on trading & transferring tokens to other wallets. These fees drive the value upwards, and will be reduced down to 5% in the future when we have multiple sources of income.
+We enforce taxes on trading & transferring tokens to other wallets.
+
+These fees drive the value upwards, and will be reduced down to 5% in the future when we have multiple sources of income.
 
 ### Exchange Fee
 

@@ -61,10 +61,10 @@ Now, let's see the price formula: `30,000 - 147 / 10,000 - 70`. Doing the math, 
 
 Some good pages to start off with would be:
 
-- [Whitepaper](/whitepaper)
-- [Treasuries](/treasuries)
-- [Protocol Fees](/fees)
-- [Potential Risks](/risks)
+- [Whitepaper](/protocol/whitepaper)
+- [Treasuries](/protocol/treasuries)
+- [Protocol Fees](/protocol/fees)
+- [Potential Risks](/protocol/risks)
 - [Official Links](/community)
 
 # The docs are WIP. Things may change at a moment's notice.
