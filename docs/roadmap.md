@@ -15,7 +15,8 @@ What we plan to do in the future.
 ## Q3 2022:
 
 - Add community members to multisig
-- Create 1000 governance carpet NFTs with different tiers for voting power to vote on proposals
+- NFT drop for holders
+- Governance tokens (not true governance yet)
 - Reduce fees from 20% to 10%
 - Support stable/stable LPs as backing tokens for more complex yield strategies
 - Add more backing stablecoins
