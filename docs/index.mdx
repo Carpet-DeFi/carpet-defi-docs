@@ -3,6 +3,8 @@ slug: /
 sidebar_position: 0
 ---
 
+import Explanation from "./_shared/_pvi_explanation.mdx";
+
 # Introduction to Carpet DeFi
 
 Carpet DeFi is a value protocol, loosely based on [WAND Investments' number-go-up technology](https://medium.com/coinmonks/wand-investments-whitepaper-reconciling-safety-sustainability-and-rewards-in-defi-ba20d96213). **Your CARPETs will always rise in value** _(unless something ridiculous happens)_
@@ -33,29 +35,7 @@ _(This technically doesn't violate the Positive Value Invariant)_
 
 :::
 
-### Buying makes price go up
-
-Let's assume here that the total backing is 1000$, the total supply is 1000 CARPET (meaning price is 1:1, or 1$), the buy/sell tax is 30%, and that the whole fee is sent to the Backing Treasury.
-
-:::info
-
-Actually, only about 60% of the fee is sent to the backing treasury. The other 40% is sent to the risk treasury.
-
-:::
-
-When you purchase CARPET, you pay, for example, 100$. The protocol only gives you 70% of that due to the fee, so you get 70 CARPET.
-
-Now, let's see the price formula: `1000 + 100 / 1000 + 70`
-
-The CARPET supply only went up by 70, but the backing value went up by 100! This causes price per CARPET to go up to `1.02`, yay!
-
-### Selling makes price go up
-
-Let's assume here now that the total backing is 30,000$, the total supply is 10,000 CARPET (meaning price is 3$), the buy/sell tax is 30%, and that the whole fee is sent to the Backing Treasury.
-
-Now this time, you're cashing out your gains, selling your 70 carpets back to the Counter. The Counter only gives you back 70% of what your carpet is worth, so you get 147$.
-
-Now, let's see the price formula: `30,000 - 147 / 10,000 - 70`. Doing the math, the new price equates to about `3.00634`. Number go up indeed!
+<Explanation />
 
 ## More information
 

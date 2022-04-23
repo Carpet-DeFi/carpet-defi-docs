@@ -4,7 +4,7 @@ Some info about the Backing & Risk Treasuries.
 
 ## Backing Treasury
 
-The Backing Treasury guarantees the value of each CARPET. It invests only in safe and secure protocols with stable assets to avoid any possibility of loss.
+The Backing Treasury guarantees the value of each CARPET. It invests only in safe and secure protocols with stable assets to avoid any possibility of loss and violation of the Positive Value Invariant.
 
 ## Risk Treasury
 

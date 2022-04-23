@@ -46,7 +46,7 @@ Someone buys 100 $CARPET and pays 20% tax, and 15 dollars goes to the Backing Tr
 
 The new $CARPET price is `1000 + 95 / 1000 + 80 = 1.014`. $CARPET price goes up 1.4%, wow!
 
-That's the exact same with sells. Simply use a subtraction instead of a division.
+That's the same with sells (just, instead of minting 80% of it, burn 100% of it). Simply use a subtraction instead of an addition.
 
 ### Transaction Tax
 

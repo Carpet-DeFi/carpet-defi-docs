@@ -1,6 +1,6 @@
 # Whitepaper
 
-Carpet Decentralised Finance (Carpet DeFi) is a completely new type of protocol based loosely on the workings of Wand. It has its own code and its own tokenomics, based around a single token, $CARPET.
+Carpet DeFi is a new type of protocol based loosely on the workings of WAND Investments. It has its own code and its own tokenomics, based around a single token, $CARPET.
 
 Carpet DeFi is designed in such a way that buying and selling the $CARPET are the only moments where your investment lowers a little in value. All the time in between, where you’re holding on to your $CARPET, works to increase the $CARPET price.
 

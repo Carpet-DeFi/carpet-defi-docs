@@ -1,0 +1,79 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Assumption from "./_assumption.jsx";
+
+<Tabs>
+  <TabItem value="buy" label="Buy" default>
+
+<Assumption
+  backing="10,000"
+  supply="10,000"
+  tax="20"
+  taxType="buy/sell"
+  price="1"
+  feeSentToBacking="15"
+  doneWithFee="is sent to the Backing Treasury."
+/>
+
+:::info
+
+Actually, only 60% of the fee is sent to the backing treasury. The other 40% is sent to the risk treasury.
+
+:::
+
+When you purchase CARPET from the Counter, you pay, for example, 100$. The protocol only gives you 80% of that due to the fee, so you get 80 CARPET.
+
+Now, let's see the price formula: `1000 + 100 / 1000 + 80`
+
+The CARPET supply only went up by 80, but the backing value went up by 100! This causes price per CARPET to go up to `1.02`, yay! **Price goes up, because backing increases proportionally more than the supply does.**
+
+  </TabItem>
+  <TabItem value="sell" label="Sell">
+
+<Assumption
+  backing="30,000"
+  supply="10,000"
+  tax="20"
+  taxType="buy/sell"
+  price="3"
+  feeSentToBacking="15"
+  doneWithFee="is burned."
+/>
+
+:::info
+
+Actually, only 60% of the fee is burned. The other 40% is sent to the risk treasury.
+
+:::
+
+Now this time, you're cashing out your gains, selling 80 carpets back to the Counter. The Counter only gives you back 80% of what your carpet is worth, so you get 192$.
+
+Now, let's see the price formula: `30,000 - 192 / 10,000 - 80`. Doing the math, the new price equates to about `3.0048`. **Price goes up, because backing decreases proportionally less than the supply does.**
+
+  </TabItem>
+  <TabItem value="transfer" label="Transfer">
+
+<Assumption
+  backing="10,000"
+  supply="10,000"
+  tax="20"
+  taxType="buy/sell"
+  price="1"
+  feeSentToBacking="15"
+  doneWithFee="is burned."
+/>
+
+:::info
+
+Actually, only 60% of the fee is sent to the backing treasury. The other 40% is sent to the risk treasury.
+
+:::
+
+You decide to give 100 CARPET to your friend, what a nice person you are!
+
+The protocol takes 20 CARPET, burning 15 and doing other stuff with the 5 CARPET. Your friend gets 80 CARPET.
+
+The price of CARPET now goes up. Let's apply the formula: `1000 / 1000 - 20 = 1.0204`. **The total backing value did not change but the supply decreased, meaning price goes up.**
+
+  </TabItem>
+</Tabs>
