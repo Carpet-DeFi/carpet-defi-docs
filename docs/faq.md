@@ -14,7 +14,7 @@ Even if no one buys or sells, the protocol still invests the stablecoin backing 
 
 ## Is this a Ponzi?
 
-Well I mean, if this _was_ a Ponzi scheme, we wouldn't be pointing it out. Do your due diligence, and [read the risks section too](./protocol/risks.md).
+Well I mean, if this _was_ a Ponzi scheme, we wouldn't be pointing it out. Do your due diligence, and [read the risks section too](./risks.md).
 
 ## Is this a rug?
 
