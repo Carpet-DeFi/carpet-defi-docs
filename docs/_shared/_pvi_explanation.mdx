@@ -6,8 +6,8 @@ import Assumption from "./_assumption.jsx";
   <TabItem value="buy" label="Buy" default>
 
 <Assumption
-  backing="10,000"
-  supply="10,000"
+  backing="1,000"
+  supply="1,000"
   tax="20"
   taxType="buy/sell"
   price="1"
@@ -17,7 +17,7 @@ import Assumption from "./_assumption.jsx";
 
 :::info
 
-Actually, only 60% of the fee is sent to the backing treasury. The other 40% is sent to the risk treasury.
+Actually, only 60% of the fee is sent to the backing treasury. The other 40% (in the form of USD) is sent to the risk treasury.
 
 :::
 
@@ -25,37 +25,39 @@ When you purchase CARPET from the Counter, you pay, for example, 100$. The proto
 
 Now, let's see the price formula: `(1000 + 100) / (1000 + 80)`
 
-The CARPET supply only went up by 80, but the backing value went up by 100! This causes price per CARPET to go up to `1.02`, yay! **Price goes up, because backing increases proportionally more than the supply does.**
+The CARPET supply only went up by 80, but the backing value went up by 100! This causes price per CARPET to go up to `1.0185`, yay! **Price goes up, because backing increases proportionally more than the supply does.**
 
   </TabItem>
   <TabItem value="sell" label="Sell">
 
 <Assumption
-  backing="30,000"
-  supply="10,000"
+  backing="1,000"
+  supply="1,000"
   tax="20"
   taxType="buy/sell"
-  price="3"
+  price="1"
   feeSentToBacking="15"
   doneWithFee="is burned."
 />
 
 :::info
 
-Actually, only 60% of the fee is burned. The other 40% is sent to the risk treasury.
+Actually, only 60% of the fee is burned. The other 40% (in the form of CARPET) is sent to the risk treasury.
 
 :::
 
-Now this time, you're cashing out your gains, selling 80 carpets back to the Counter. The Counter only gives you back 80% of what your carpet is worth, so you get 192$.
+You're cashing out, selling 100 carpets back to the Counter. The Counter only gives you back 80% of what your carpet is worth, so you get 80$.
 
-Now, let's see the price formula: `(30,000 - 192) / (10,000 - 80)`. Doing the math, the new price equates to about `3.0048`. **Price goes up, because backing decreases proportionally less than the supply does.**
+The Risk Treasury takes a cut of the fee too, so 5% of your CARPET amount (5) is not burned but rather goes to funding space travel for penguins.
+
+Now, let's see the price formula: `(1,000 - 80) / (1,000 - 95)`. Doing the math, the new price equates to about `1.0165`. **Price goes up, because backing decreases proportionally less than the supply does.**
 
   </TabItem>
   <TabItem value="transfer" label="Transfer">
 
 <Assumption
-  backing="10,000"
-  supply="10,000"
+  backing="1,000"
+  supply="1,000"
   tax="20"
   taxType="buy/sell"
   price="1"
