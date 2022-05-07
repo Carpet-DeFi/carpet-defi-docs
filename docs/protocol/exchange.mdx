@@ -8,4 +8,8 @@ The Counter has the sole, exclusive right to mint CARPET. [It only does so on pu
 
 The sell and buy taxes make sure that the price always goes upwards, [which is known as the Positive Value Invariant.](./positivevalue)
 
+### Security
+
+We have sanity checks inside the Counter that require a stablecoin to be at least 0.95 peg. This is to stop any potential arbitrageurs draining the treasury of other stables in the event of a massive depegging.
+
 <Explanation />

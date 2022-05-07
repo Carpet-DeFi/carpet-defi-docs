@@ -79,6 +79,16 @@ Someone sells 100 $CARPET and 20% is discounted from the amount they receive, wh
 
 :::
 
+### Additional allocation fee
+
+The Backing Treasury's stablecoin holdings can become unbalanced in the event of a new backing token being added or some other event, causing added depegging risk and inoptimal deployment of capital across farms, which could hamper the passive growth of the Backing Treasury.
+
+As a result, we will use an extra disincentive to ensure even allocation. This fee will be added on top of the "base fee" and will be split across the Risk & Backing treasuries in the same ratio as how the base fee is split.
+
+The fee will be gradual, with buying CARPET using the stablecoin that the treasury has the least of having a 0% additional fee, and buying CARPET with the largest held stablecoin bearing the maximum allocation fee.
+
+If the difference between the lowest value and highest value pools is less than 10% (of the highest value pool), this extra fee is disabled. This fee is also disabled if there is only one backing token, as it is the sole stablecoin held by the Treasury, and this fee would not make sense.
+
 ### Low risk BT investments
 
 While the BT is holding on to investor stablecoins, it invests them in low risk protocols like Aave and
@@ -129,7 +139,24 @@ We are known in the DeFi space and our honour and reputation is more valuable to
 
 ### Depegging of stablecoins
 
-Carpet DeFi trusts in the value of certain stablecoins. We spread risk by using multiple stablecoins instead of just one, but the depegging of even one can do a lot to our treasury. We carefully choose these stablecoins, though, and even though depegging happens, it is often only a momentary issue that quickly gets resolved. Also please note that the BT does not loop its investments and does not borrow against assets, so a momentary drop in a stablecoin will not liquidate any of the BT investments.
+Carpet DeFi trusts in the value of certain stablecoins. We spread risk by using multiple stablecoins instead of just one, but the depegging of even one can do a lot to our treasury. We carefully choose these stablecoins, though, and even though depegging happens, it is often only a momentary issue that quickly gets resolved.
+
+Also please note that the BT does not loop its investments and does not borrow against assets, so a momentary drop in a stablecoin will not liquidate any of the BT investments.
+
+#### Deposit restrictions on depegging
+
+In the future, we will support multiple stablecoins in our treasury, allowing users to deposit one token and withdraw another, taking a 9.75% fee if doing so (assuming flat fees of 5% on swap).
+
+However, this opens up the possibility of stablecoin arbitrage. Assuming one stablecoin depegs drastically, an arbitrageur may purchase and deposit this stablecoin (which we will call X) and withdraw Y, making a profit while draining away Y from the Backing Treasury.
+
+This increases the risk massively for the Backing Treasury, as if only one stablecoin depegs severely, all the other stablecoin pools in the BT are at risk of being drained.
+
+Our goals in the event of a depegging are to:
+
+- Minimize damage to investor holdings
+- Stay liquid for withdrawals
+
+We do this by restricting purchases with a particular stablecoin when the price of that stable is below 0.95 USDC. This is done on-trade, and the price is pulled directly from a DEX rather than a TWAP oracle as we do not believe there is any way for a malicious actor to profit by moving the price of X upwards to bypass this sanity check, depositing X (taking a fee), then withdrawing Y.
 
 ### Wallet Hack or Scam
 
@@ -160,7 +187,7 @@ The only way to lose on your investment in Carpet DeFi is when you overinvest an
 
 ## Initial settings
 
-The Carpet Defi team plans to launch with heavier taxes and over time reduce these. The necessity of this lies in setting the protocol up. We believe that early investors will still be greatly in profit because they’ll be able to hold for the longest time, possibly even selling only after the sell taxes are lowered.
+The Carpet DeFi team plans to launch with heavier taxes and over time reduce these. The necessity of this lies in setting the protocol up. We believe that early investors will still be greatly in profit because they’ll be able to hold for the longest time, possibly even selling only after the sell taxes are lowered.
 
 ### Basic information
 
@@ -175,14 +202,15 @@ The Carpet Defi team plans to launch with heavier taxes and over time reduce the
 - RT address: Not deployed yet
 
 - Initial exchange tax: 30%
+- Initial maximum extra allocation tax: 30%
+
 - Initial transfer tax: 30%
 
 - Percentage sent to BT & RT: 60% of fees to Backing (or burnt), 40% to Risk
 
-- BT will initially accept the following stablecoins: MIM, USDC
+- BT will initially accept the following stablecoins: MIM, USDC, FRAX, UST
 
-- BT will initially invest in the following low risk
-  protocols: BankerJoe
+- BT will initially invest in the following low risk protocols: Yield Yak, Anchor Protocol
 
 - Amount BT will initially keep liquid: 10%
 
