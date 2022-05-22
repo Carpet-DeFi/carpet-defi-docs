@@ -8,9 +8,10 @@ Link these people to our whitepaper and show them the math behind it! Be nice, b
 
 :::
 
-## Positive Value Invariant in a nutshell
+## Number Go Up technology
 
-![Positive value invariant means number go up](/img/positivevalue.png)
+![Trading makes price go up](/img/trading.png)
+![Yield strategies makes price go up](/img/yieldstrategy.png)
 
 ## Income & expenses flowchart
 
@@ -19,7 +20,3 @@ Link these people to our whitepaper and show them the math behind it! Be nice, b
 ## Our 2022 roadmap
 
 ![Roadmap 2022](/img/roadmap2022.png)
-
-## Comparison with WAND Investments
-
-![Comparison with WAND Investments](/img/comparison.png)

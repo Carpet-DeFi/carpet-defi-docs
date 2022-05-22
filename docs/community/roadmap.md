@@ -31,6 +31,5 @@ What we plan to do in the future.
 
 - 0% fees, except on the exchange, which will be 5%
 - True community governance, operator permissions set to a DAO governance contract
-- Allow a holder or group of holders to secede from the main system, customize their "branches", and more, similar to The DAO
 
 ![Roadmap 2022](/img/roadmap2022.png)
