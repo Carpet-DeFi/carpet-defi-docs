@@ -64,5 +64,5 @@ The price of CARPET now goes up. If you apply the formula: `1000 / 1000 - 20 = 1
 
 Come join our awesome community where you can ask away at everything!
 
-- [Read the FAQ](../faq)
+- [Read the FAQ](../community/faq)
 - [Join the Discord server](https://discord.gg/TrFAXpBsWU)
