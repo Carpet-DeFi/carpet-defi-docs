@@ -18,6 +18,8 @@ After a seed round is over, you will have 72 hours to use your seed tokens other
 
 If the seed round ends without at least `soft cap` number of tokens spent, the seed tokens will be invalidated and a new seed round will start with `hard cap - tokens spent` amount of seed tokens.
 
+These seed tokens can be earned in giveaways and promotional events!
+
 You are able to sell inside a seed round, however you will incur the full 30% fee.
 
 ## Seed Round 1
