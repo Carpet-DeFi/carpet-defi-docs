@@ -4,17 +4,25 @@ No DeFi protocol is without risks, and we’d like to be clear about them.
 
 ## Exploits and hacks
 
-All cryptocurrency is code, and code can have mistakes in it. Blockchain developers are like smart contract "lawyers", except the contracts are written in a different and highly specific language. Translating human language to Solidity can generate typos and translation errors, allowing hackers to find loopholes and exploit them. To minimize this risk, we will use static analysis tools and will get our contracts audited by experts in the field.
+All cryptocurrency is code, and code can have mistakes in it. Translating human language to Solidity can generate typos and translation errors, allowing hackers to find loopholes and exploit them. To minimize this risk, we will use static analysis tools and will get our contracts audited.
 
-## Corruption
+### Centralization
 
-We have a partially doxxed team working for Carpet DeFi and the doxxed members of that team are on the multisig for non-automated treasury wallets. We trust each other and ourselves.
+In the initial stages, the protocol will be centralized. The administrative multisig will be able to perform extremely powerful and potentially harmful actions, however we plan on decentralizing the project heavily over time.
 
-We are known in the DeFi space and our honour and reputation is more valuable to us than any money we could rug. Also, we are not a rug store, but a Carpet Store. That leaves threats or aggressive crime, but we are still on multisig wallets and not all members on the multisig wallets are doxxed, so even such crime would be as useless as it would be horrible. Once the protocol is stable, we plan to build a governance DAO in the future to further decentralize the project.
+We have a partially doxxed team working for Carpet DeFi and the doxxed members of that team are on the multisig for non-automated treasury wallets.
+
+We are known in the DeFi seigniorage space and our honour and reputation is more valuable to us than any money we could rug.
+
+Administrative access is on multisig wallets and not all members on the multisig wallets are doxxed, so even physical threats or other crimes would be as useless as it would be horrible.
 
 ## Depegging of stablecoins
 
-Carpet DeFi trusts in the value of certain stablecoins. We spread risk by using multiple stablecoins instead of just one, but the depegging of even one can do a lot to our treasury. We carefully choose these stablecoins, though, and even though depegging happens, it is often only a momentary issue that quickly gets resolved. Also please note that the BT does not loop its investments and does not borrow against assets, so a momentary drop in a stablecoin will not liquidate any of the BT investments.
+Carpet DeFi trusts in the value of certain stablecoins. We spread risk by using multiple stablecoins instead of just one, but the depegging of even one can do a lot to our treasury.
+
+We carefully choose these stablecoins, though, and even though depegging happens, it is often only a momentary issue that quickly gets resolved. Also please note that the BT does not loop its investments and does not borrow against assets, so a momentary drop in a stablecoin will not liquidate any of the BT investments.
+
+In the event of a severe and permanent depegging though, it may cause severe damage to the Backing Treasury depending on the amount allocated to that stablecoin.
 
 ### Wallet Hack or Scam
 

@@ -17,6 +17,6 @@ Link these people to our whitepaper and show them the math behind it! Be nice, b
 
 ![Revenue flowchart](/img/revenue.png)
 
-## Our 2022 roadmap
+## Our aerial map
 
-![Roadmap 2022](/img/roadmap2022.png)
+![Roadmap 2022](/img/aerialmap.png)
