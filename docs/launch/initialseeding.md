@@ -27,12 +27,10 @@ You are able to sell inside a seed round, however you will incur the full 30% fe
 This seed round has no marketing budget. The marketing styles here should be low budget, such as calling for friendly protocols, trying to get joint AMAs and shilling in shill channels.
 
 - **Seed token price**: 5 cents each
-
 - **Buy tax**: 12%
 - **Effective buy tax**: 17% (Cost of seed token added)
 - **Hard cap**: 150,000 USD/seed tokens
 - **Soft cap**: 50,000 USD/seed tokens
-
 - **Time cap**: 72 hours after soft cap reached
 
 ### How it is split:
@@ -45,7 +43,6 @@ This seed round has no marketing budget. The marketing styles here should be low
 - Total raised: 150k-300k
 - Total raised from seed token sale: 2.5k-7.5k
 - Total raised from CARPET sale: 150k-300k
-
 - Backing Treasury: 55k-142.5k
 - Marketing budget: 5k-15k
 
