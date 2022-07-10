@@ -7,7 +7,7 @@ pagination_next: treasuries
 
 Every great protocol needs to start somewhere, and we too need our investors to help provide us with the resources required to build up the protocol. We do this by holding three weaving rounds. Each weaving round will assume a progressively larger crowd, since a large part of each weaving round revenue will be used for marketing. Those who invest in the earlier weaving rounds will benefit from very low taxes to offset the risk of investing early.
 
-:::iKeen
+:::info
 Those who held KEEN or iSKEEN at the moment the snapshot was taken, will receive free Carpet tokens before the first weaving round and after the last weaving round. This will be paid for by the weaving round marketing allocation.
 :::
 
