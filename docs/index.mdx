@@ -1,19 +1,63 @@
 ---
 slug: /
 sidebar_position: 0
+pagination_next: workings
 ---
 
 import Explanation from "./_shared/_pvi_explanation.mdx";
 
 # Introduction to Carpet DeFi
 
-Carpet DeFi is an upcoming protocol focusing on sustainably maintaining and increasing holder value.
+Carpet DeFi is a protocol designed to always gradually increase holder value.
+We use our Number Go Up Technology! Your CARPET holdings will always grow
+in value over time, the price of one CARPET at any moment is always greater or equal
+to the Carpet price in any other previous point in time\*.
 
-:::info
+Carpet DeFi does not promise a 10x moon pump in a month, but it when it comes to
+a longer-term saving rewards scheme that utilises its tokenomics to best serve its
+investors, Carpet DeFi is the safe choice.
 
-This is called **Number Go Up Technology :tm:!** Your CARPET holdings will always grow in value over time, the price at one moment is always greater or equal to any price in any other previous point in time.
+Carpet DeFi will launch on the Avalanche C-Chain.
 
-:::
+\*when compared to USDC
+
+## Terms explained
+
+### Carpet
+
+Carpet is the main protocol token. Taking part in Carpet DeFi means hodling Carpet.
+
+### Counter
+
+The counter is our exchange. It is where Carpet can be bought and sold. The Counter will incur a buy tax and a sell tax to make the protocol function. The counter mints Carpet on any buy and it burns Carpet on any sell.
+
+### Buy tax
+
+On every buy of Carpet from the Counter, a buy tax is incurred. The buy tax is the percentage amount of Carpet that the counter does not mint on a buy. Over time as the protocol matures, the buy tax will go down, but it will never reach zero.
+
+### Sell tax
+
+On every sell of Carpet, a sell tax is incurred by the Counter. The sell tax is the percentage amount of Carpet that the counter burns but does not return stablecoins for.
+
+### Backing Treasury (BT)
+
+The backing treasury, or BT, is a treasury full of stablecoins and/or yield bearing assets based on stablecoins that reflect the value of Carpet at any time via the following formula: `BT value / Carpet supply = Carpet Price`
+
+### Genie Sweat Shop (GSS)
+
+The Genie Sweat Shop, or GSS, has the function of dividing the part of the taxes which do not end up in the BT into the Risk Treasury, the DAO Treasury and the NFT Airdrop Treasury.
+
+### Risk Treasury (RT)
+
+The Risk Treasury, or RT, is a treasury with which the team will invest into other protocols with the aim of acquiring profit for Carpet holders. The Carpet DeFi team's investment department will make trades and investments of its own volition but will also consult the community of Carpet holders via discussions and votes on what the community deems to be good investments.
+
+### NFT Airdrop Treasury (NFTAT)
+
+The NFT Airdrop Treasury, or NFTAT, is a treasury with the express purpose of rewarding Carpet DeFi NFT holders. Before the first NFTs are minted, the NFTAT will simply passively accumulate value. From the first minting onwards, the NFTAT will be used to reward NFT holders once every four weeks by using 20% of its total value to buy Carpet at the Counter and airdrop it to NFT holders.
+
+### DAO Treasury (DAOT)
+
+The DAO Treasury, or DAOT, will take care of the protocol expenses, including gas fees, marketing, site hosting and more.
 
 ## What? How?
 
@@ -33,14 +77,10 @@ Price is determined by a simple formula, the `total backing value / total CARPET
 
 The Carpet protocol will not only earn from lending out stablecoins on safe platforms but will also earn from Risk Treasury investments.
 
-## More information
+## Suggested reading order
 
-Some good pages to start off with would be:
-
-- [Whitepaper](/protocol/whitepaper)
-- [Treasuries](/protocol/treasuries)
-- [Protocol Fees](/protocol/fees)
-- [Potential Risks](/community/risks)
-- [Official Links](/community)
-
-# The docs are WIP. Things may change at a moment's notice.
+- [The Workings of Carpet DeFi](/workings)
+- [Weaving Rounds](/weaving)
+- [Contracts & Treasuries](/contracts)
+- [Security](/security)
+- [Whitepaper](Whitepaper)
