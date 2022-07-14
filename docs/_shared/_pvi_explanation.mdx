@@ -11,21 +11,21 @@ import Assumption from "./_assumption.jsx";
   tax="20"
   taxType="buy/sell"
   price="1"
-  feeSentToBacking="15"
+  feeSentToBacking="18"
   doneWithFee="is sent to the Backing Treasury."
 />
 
 :::info
 
-Actually, only 60% of the fee is sent to the backing treasury. The other 40% (in the form of USD) is sent to the risk treasury.
+Except during special events, 60% of the tax is sent to the BT. The other 40% (in the form of USDC) is sent to the GSS.
 
 :::
 
-When you purchase CARPET from the Counter, you pay, for example, 100$. The protocol only gives you 80% of that due to the fee, so you get 80 CARPET.
+When you purchase CARPET from the Counter, you pay, for example, 100 USDC. The protocol only gives you 70% of that due to the fee, so you get 70 Carpet. The Backing Treasury however went up by 88 USDC and the Genie Sweat Shop received 12 USDC.
 
-Now, let's see the price formula: `(1000 + 95) / (1000 + 80)`
+Now, let's see the price formula again: `(1000 + 88) / (1000 + 70) ≈ 1.0168`
 
-The CARPET supply only went up by 80, but the backing value went up by 95$ (risk treasury gets a 5$ cut here)! This causes price per CARPET to go up to `1.0139`, yay! **Price goes up, because backing increases proportionally more than the supply does.**
+The CARPET supply only went up by 70, but the backing value went up by 88 USDC. This causes price per CARPET to go up by ~1.68% to ~1.0168! Price goes up, because BT value increases proportionally more than the supply does.
 
   </TabItem>
   <TabItem value="sell" label="Sell">
@@ -33,10 +33,10 @@ The CARPET supply only went up by 80, but the backing value went up by 95$ (risk
 <Assumption
   backing="1,000"
   supply="1,000"
-  tax="20"
+  tax="30"
   taxType="buy/sell"
   price="1"
-  feeSentToBacking="15"
+  feeSentToBacking="18"
   doneWithFee="is burned."
 />
 
@@ -45,35 +45,9 @@ The CARPET supply only went up by 80, but the backing value went up by 95$ (risk
 Actually, only 60% of the fee is burned. The other 40% (in the form of CARPET) is sent to the risk treasury.
 
 :::
+You're cashing out, selling 100 carpets back to the Counter. The Counter only gives you back 70% of what your carpet is worth, so you get 70 USDC, 100 Carpet gets burned, the BT loses 82 USDC and the Genie Sweat Shop gets 12 USDC.
 
-You're cashing out, selling 100 carpets back to the Counter. The Counter only gives you back 80% of what your carpet is worth, so you get 80$, and the Risk Treasury gets 5 CARPET.
-
-Now, let's see the price formula: `(1,000 - 80) / (1,000 - 95)`. Doing the math, the new price equates to about `1.0165`. **Price goes up, because backing decreases proportionally less than the supply does.**
-
-  </TabItem>
-  <TabItem value="transfer" label="Transfer">
-
-<Assumption
-  backing="1,000"
-  supply="1,000"
-  tax="20"
-  taxType="buy/sell"
-  price="1"
-  feeSentToBacking="15"
-  doneWithFee="is burned."
-/>
-
-:::info
-
-Actually, only 60% of the fee is burned. The other 40% (in the form of CARPET) is sent to the risk treasury.
-
-:::
-
-You decide to give 100 CARPET to your friend, what a nice person you are!
-
-The protocol takes 20 CARPET, burning 15 and doing other stuff with the 5 CARPET. Your friend gets 80 CARPET.
-
-The price of CARPET now goes up. Let's apply the formula: `1000 / (1000 - 15) = 1.0152`. **The total backing value did not change but the supply decreased, meaning price goes up.**
+Now, let's see the price formula: (1,000 - 82) / (1,000 - 100). Doing the math, the new price increases by 2% to 1.02. Price goes up because BT value decreases proportionally less than the supply does.
 
   </TabItem>
 </Tabs>

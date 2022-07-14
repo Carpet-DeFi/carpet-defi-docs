@@ -1,6 +1,6 @@
 # Whitepaper
 
-Carpet DeFi is a new type of protocol based loosely on the workings of WAND Investments and Moon Vault. It has its own code and its own tokenomics, based around a single token, $CARPET.
+Carpet DeFi is a new type of protocol based loosely on the workings of WAND Investments and Moon Vault. It has its own code and its own tokenomics (token economics), based around a single token, $CARPET.
 
 Carpet DeFi is designed in such a way that buying and selling the $CARPET are the only moments where your investment lowers a little in value. All the time in between, where you’re holding on to your $CARPET, works to increase the $CARPET price.
 
@@ -14,7 +14,7 @@ If you buy or sell $CARPET, you pay a trade tax. The longer you hold $CARPET the
 
 ## Protocol Design
 
-The Carpet Store is a very interesting place. It has a Counter, a Backing Treasury, a Risk Treasury, and, of course, $CARPET.
+The Carpet Store is a very interesting place. It has a Counter, a Backing Treasury, a Genie Sweat Shop, a Risk Treasury, a DAO Treasury, and, of course, $CARPET.
 
 ### CARPET
 
@@ -22,27 +22,42 @@ The $CARPET token is at the center of the Carpet DeFi ecosystem. It is the token
 
 ### Counter
 
-The Counter is the only place where you can buy or sell $CARPET.
+The Counter and its variants are the only places where you can buy or sell $CARPET.
 
 Our Carpet store knows it has this monopoly, and therefore you overpay when you buy $CARPET and you get underpaid when you sell $CARPET.
 
 In normal DeFi terms we call this buy tax and sell tax, and it is essential for the workings of the Carpet DeFi protocol. The Carpet DeFi buy and sell taxes start reasonably high and will decline based on trading volume.
 
+### Whale Counter
+
+The Whale Counter is where whales get discount because we love whales.
+
 ### Backing Treasury
 
 The Backing Treasury (BT) is a smart contract filled with stablecoins, and the combined value of the stablecoins in the wallet is the measurement of the value of $CARPET through this simple formula: `BT value / supply of $CARPET = price of $CARPET`.
 
-**Essentially, the value in the backing treasury always equals the current market cap of $CARPET.** The backing treasury invests a large percentage of its stablecoins in low risk yield strategies. A portion of the Backing Treasury is kept liquid at all times to more easily pay people who want to sell their $CARPET.
+**Essentially, the value in the backing treasury always equals the current market cap of $CARPET.** The backing treasury invests a large percentage of its stablecoins in low risk yield strategies. A portion of the Backing Treasury is kept liquid for gas efficiency to pay people who want to sell their $CARPET.
 
 In case of very large sells, the Backing Treasury will draw from its invested funds to pay, which increases the gas price for the transaction but otherwise makes no difference for the seller.
 
-### Risk Treasury
+### Genie Sweat Shop (GSS)
 
-**The Risk Treasury (RT) is an arbitrary wallet.** It gets partly supplied by the buy and sell tax, just like the BT.
+The Genie Sweat Shop divides part of the buy and sell tax to the RT, the NFTAT and the DAOT.
 
-However, it has not a direct relation to $CARPET price, but rather an indirect one. The influx of funds coming into the RT is used by the Carpet DeFi team for investments that require a higher risk tolerance but also carry a higher reward potential.
+### Risk Treasury (RT)
 
-A part of the RT is also used for protocol expenses, for possible giveaways or prizes, and for payment of the core team. The RT indirectly influences the price of $CARPET because earnings from its investments are funnelled towards the Backing Treasury, increasing the price of $CARPET.
+**The Risk Treasury (RT) is an investment fund and gets supplied by the Genie Sweat Shop.** It gets partly supplied by the buy and sell tax, just like the BT.
+
+However, it has not a direct relation to $CARPET price, but rather an indirect one. The influx of funds coming into the RT is used by the Carpet DeFi team for investments that require a higher risk tolerance but also carry a higher reward potential. The RT indirectly influences the price of $CARPET because earnings from its investments are funnelled towards the Backing Treasury, increasing the price of $CARPET.
+
+### NFT Airdrop Treasury (NFTAT)
+
+The NFTAT pays out to Carpet NFT holders every four weeks. On payday, 20% of the NFTAT holdings are brought to the counter to buy $CARPET and then that $CARPET gets airdropped to NFT holders, providing great passive income!
+A token amount of $CARPET needs to be bought in the four weeks before an airdrop in order to receive the airdrop. This is to make sure that only active wallets are airdropped our precious $CARPET.
+
+### DAO Treasury (DAOT)
+
+The DAOT is supplied by the GSS and holds liquidity that can be spent to further the protocol in indirect ways, like providing gas, hosting or marketing.
 
 ## The workings of only up
 
@@ -143,7 +158,7 @@ To some people, Carpet DeFi could be considered Ponzi-like due to the fact that 
 
 ### Ponzis are unsustainable
 
-You can't sustain a Ponzi scheme. Eventually it will have to collapse as the person running the scheme does not have enough money to pay off investors. Assuming all of the BT's stablecoins remain stable, Carpet DeFi can pay out even there are 0% fees and even if everyone cashes in at once triggering a bank run.
+You can't sustain a Ponzi scheme. Eventually it will have to collapse as the person running the scheme does not have enough money to pay off investors. Assuming all of the BT's stablecoins remain stable, Carpet DeFi can pay out even if there are 0% fees and even if everyone cashes in at once triggering a bank run. All Carpet in existence is always fully collateralised by stablecoins.
 
 ### Ponzis are obfuscated
 
@@ -151,9 +166,9 @@ Carpet DeFi is open. Not only is this whitepaper as brutally honest as we can ma
 
 ### Ponzi schemes use latecomers as exit liquidity
 
-It is well known in Crypto land that everyone is looking to be an early investor. Early investors can see a token go 100x or more and then those early whales can dump their moonbags on the poor latecomers. This happened even with OG Bitcoin, where I remember a friend of mine was happy he could buy a nice burger because he had mined a Bitcoin on his home PC and sold it for €2,50. People with less appetite would have been way richer than he eventually got. All the big successful altcoins later did the same. But Carpet DeFi works differently.
+It is well known in Crypto land that everyone is looking to be an early investor. Early investors can see a token go 100x or more and then those early whales can dump their moonbags on the poor latecomers. Even Bitcoin and all the blue chip altcoins follow this model. But Carpet DeFi works differently.
 
-Of course, early investors still profit, because the longer you hold your $CARPET, the more you’ll be in profit. But if you’re late, you’re still good. Because for those early whales to take profit, they need to sell their $CARPET, and we know what sales do to $CARPET: it increases its value. Latecomers will never have to be scared of getting dumped on by early whales, they may instead hope for such big sells. Carpet DeFi is so much not a Ponzi scheme that it could even be considered anti-Ponzi.
+Of course, early investors still profit, because the longer you hold your $CARPET, the more you’ll be in profit. But if you’re late, you’re still good. Because for those early investors to take profit, they need to sell their $CARPET, and we know what sales do to $CARPET: it increases its value. Latecomers will never have to be scared of getting dumped on by early whales, they may instead hope for such big sells. Carpet DeFi is so much not a Ponzi scheme that it could even be considered anti-Ponzi.
 
 ### Only apes lose
 
@@ -170,10 +185,9 @@ The Carpet DeFi team plans to launch with heavier taxes and over time reduce the
 - $CARPET contract: Not deployed yet
 - BT address: Not deployed yet
 - Initial exchange tax: 30%
-- Initial transfer tax: 30%
 - Percentage sent to BT & RT: 60% of fees to Backing (or burnt), 40% to Risk
 - BT will initially accept the following stablecoins: USDC
 - BT will initially invest in the following low risk protocols: N/A
 - Amount BT will initially keep liquid: 100%
 
-These initial settings will be adjusted over time, but the community will always be informed. None of this information is fixed until launch.
+These initial settings will be adjusted over time, but the community will always be informed.

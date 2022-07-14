@@ -1,0 +1,58 @@
+---
+pagination_prev: index
+pagination_next: nfts
+---
+
+import Explanation from "./_shared/_pvi_explanation.mdx";
+
+# The Workings of Carpet DeFi
+
+Here we will explain the workings of our protocol and our Number Go Up Technology™ more in depth.
+
+## The contents of the treasuries
+
+Except for the Risk Treasury, all of our treasuries hold either stablecoins and/or yield bearing assets based on stablecoins. At launch we will use USDC exclusively and as such we'll be talking about USDC throughout the rest of the docs.
+
+The treasuries that hold USDC are the Backing Treasury, the Genie Sweat Shop, the DAO Treasury and the NFT Airdrop Treasury.
+
+The Risk Treasury will hold any number of tokens representing its investments.
+
+## The Number Go Up Technology™
+
+On every buy and sell, the Price of Carpet will go up. We will explain this via examples. Remember: `BT value / Carpet supply = Carpet Price`
+
+<Explanation />
+
+## Buy and Sell tax reduction
+
+### Automated Reduction
+
+In the early days of the Carpet DeFi protocol, levying higher taxes is necessary to get the protocol going. In later days, when the protocol is better known and our volume increases, we can lower the taxes and still make sure that they have an effect. As such, the buy and sell tax is set to reduce over time, lowering itself by 0.5% for every 200k USDC of total volume, eventually resting on 5% after 10 million USDC volume.
+
+This speed is chosen to make sure that early investors will still be in way higher profit if they buy early and hold over time than what they would be if they would wait on the lowered tax.
+
+### Genie's Treasure Events
+
+When the stars align, a genie will let the team know to announce a Genie's Treasure Event. During this event all sales tax will we lowered, and all of that tax will go towards the Genie Sweat Shop, with nothing going back into the Backing Treasury.
+
+During this event sales won't make Carpet price go up, but of course the price won't go down either. Any sales made during a Genie's Treasure Event will not count against the totalled volume for Automated Reduction.
+
+The Genie's Treasure Event is an excellent time for holders to sell some Carpet against a lower tax. Even though these sales won't increase the price directly, the increased inflow into the GSS will be a boon to the protocol anyway.
+
+### Why do we need Genie's Treasure Events?
+
+Carpet DeFi works in such a way that after someone buys carpet and then later sells it, the Backing Treasury is left with more USDC than it had before. This means that over time the BT will grow without any mechanism in place to shrink it permanently.
+This sounds wonderful, but it would also mean that the impact of a buy or sell is lessened over time. After all, adding 18 USDC to a treasury of 1000 USDC as per the example makes a much larger impact than adding 18 USDC to a treasury of several million.
+
+The purpose of the Genie's Treasure Event is to make sure that the BT doesn't get so large that the Always Up technology of Carpet becomes practically ineffective. The event will continue until the size of the BT is a lot smaller again, after which the genie tells the team to call a halt, so as to resume business as normal. The Carpet team means to decentralise the Genie's Treasure Events in the future.
+
+## Whale Counter
+
+Carpet DeFi loves whales! Through our Number Go Up Technology whales will always make the community benefit on both a buy and a sell. Because of this, Carpet DeFi introduces the Whale Counter. At the Whale counter any whale may make sizeable buys at a sizeable discount.
+
+## Risk Treasury investments
+
+The Risk Treasury receives 70% of the taxes allocated to the Genie Sweat Shop. This USDC is syphoned off in a responsible way because the protocol doesn't need that USDC to function. As such these assets can be viewed as assets that the Carpet investment department can invest with clear conscience.
+The protocol investment department will devise strategies to make trades and investments on behalf of the protocol, with the goal to reap profit for the protocol.
+These investments might be multichain, but they will all be in DeFi, so that anyone can follow the investments on-chain. These strategies will include responsible profit taking, eventually resulting in a USDC yield bridged back to the Avalanche C-chain.
+The profits from the RT investments will support the Backing Treasury, the NFT Airdrop Treasury and the Carpet Team.

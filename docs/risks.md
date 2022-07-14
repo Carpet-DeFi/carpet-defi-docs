@@ -1,3 +1,7 @@
+---
+pagination_prev: index
+---
+
 # Risks
 
 No DeFi protocol is without risks, and we’d like to be clear about them.

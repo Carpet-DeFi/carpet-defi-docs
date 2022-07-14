@@ -1,3 +1,7 @@
+---
+pagination_prev: index
+---
+
 # Aerial Map
 
 Since we have flying carpets, we must have a map for flying!
