@@ -7,7 +7,7 @@ pagination_next: security
 
 ## Backing Treasury
 
-The Backing Treasury guarantees the value of each CARPET. It invests only in safe and secure protocols with stable assets to avoid any possibility of loss and violation of the Positive Value Invariant.
+The Backing Treasury guarantees the value of each CARPET. It invests only in safe and secure protocols with stable assets to try and reduce the possibility of loss.
 
 ## Genie Sweat Shop
 
