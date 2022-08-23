@@ -12,9 +12,8 @@ Our team consists of:
 - Disc0rduser, marketing
 - Naorria, design
 
-The current members of the administrative multisig wallet (3/4) are:
+The current members of the administrative multisig wallet (2/3) are:
 
 - Operator
 - Nicky
 - Cattie
-- Andy
