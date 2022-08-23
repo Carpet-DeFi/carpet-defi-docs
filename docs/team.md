@@ -6,11 +6,10 @@ pagination_prev: index
 
 Our team consists of:
 
-- Operator, the developer
+- Operator, developer
 - Nicky, tokenomics expert
-- Eric, partnerships
-- Andy, marketing
-- Cattie, PR
+- Cattie, PR & marketing
+- Disc0rduser, marketing
 - Naorria, design
 
 The current members of the administrative multisig wallet (3/4) are:
