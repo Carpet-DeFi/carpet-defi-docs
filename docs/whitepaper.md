@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Whitepaper
 
 Carpet DeFi is a new type of protocol based loosely on the workings of WAND Investments and Moon Vault. It has its own code and its own tokenomics (token economics), based around a single token, $CARPET.

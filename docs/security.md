@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 pagination_prev: treasuries
 pagination_next: whitepaper
 ---

@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Carpet-DeFi", // Usually your GitHub org/user name.
-  projectName: "carpet-docs", // Usually your repo name.
+  projectName: "carpet-defi-docs", // Usually your repo name.
 
   presets: [
     [

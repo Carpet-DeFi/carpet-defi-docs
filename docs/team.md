@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 pagination_prev: index
 ---
 
@@ -17,3 +18,4 @@ The current members of the administrative multisig wallet (2/3) are:
 - Operator
 - Nicky
 - Cattie
+- Disc0rduser
